@@ -1,8 +1,18 @@
 aid: osmos
 name: Osmos
-description: Osmos is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Osmos is an AI-powered data ingestion and data onboarding platform that helps
+  companies import, clean, transform, and validate data arriving from customers,
+  partners, and third-party sources. Its core products include the Osmos Uploader,
+  an embeddable data-import experience that lets end users upload spreadsheets and
+  CSV files that are automatically mapped, validated, and cleaned; AI Data Wrangler
+  capabilities that use AI agents to reshape messy inbound data into a target
+  schema; and data pipelines for recurring ingestion from files, APIs, and other
+  systems. Osmos is aimed at product and data teams that need to reliably onboard
+  external data without building and maintaining bespoke import tooling. This
+  API Evangelist profile was surfaced as a portfolio company of Lightspeed Venture
+  Partners and enriched through the enrichment pipeline; public API surface details
+  are gated behind the Osmos application and documentation.
 url: https://raw.githubusercontent.com/api-evangelist/osmos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,46 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Data Ingestion
+- Data Onboarding
+- Data Integration
+- ETL
+- Data Import
+- Artificial Intelligence
+- Data Pipelines
+- Data Quality
+image: https://osmos.io/favicon.ico
+common:
+- type: DomainSecurity
+  url: security/osmos-domain-security.yml
+- type: Website
+  url: https://osmos.io
+- type: Documentation
+  url: https://docs.osmos.io
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
